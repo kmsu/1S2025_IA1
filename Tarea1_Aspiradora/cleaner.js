@@ -22,9 +22,9 @@ function test(states) {
     }
     else {
         if (states[0] == "A" && states[2] == "CLEAN" && states[1] == "CLEAN"){
-            states[0] = "B"
-            states[1] = "DIRTY"
-            states[2] = "DIRTY"
+            states[0] = "B";
+            states[1] = "DIRTY";
+            states[2] = "DIRTY";
         }
         else if (action_result == "RIGHT") states[0] = "B";
         else if (action_result == "LEFT") states[0] = "A";
