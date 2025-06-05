@@ -51,7 +51,12 @@ function test(states) {
             countstates++;
         } 
     }
-    if (countstates < 9) setTimeout(function () { test(states); }, 2000);
+    //if (countstates < 9) setTimeout(function () { test(states); }, 2000);
+    if (countstates < 9) {
+        setTimeout(function () { test(states); }, 2000);
+    } else {
+        document.getElementById("log").innerHTML += "<br><br><strong>¡Proceso terminado! Se visitaron los 8 estados.</strong>";
+    }
 }
 
 var countstates = 0;
