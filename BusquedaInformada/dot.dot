@@ -1,0 +1,27 @@
+graph G {
+N1 [label="4213"];
+N2 [label="2413"];
+N1 -- N2 [label="6"];
+N3 [label="4123"];
+N1 -- N3 [label="6"];
+N4 [label="4231"];
+N1 -- N4 [label="6"];
+N5 [label="4213"];
+N2 -- N5 [label="6"];
+N6 [label="2143"];
+N2 -- N6 [label="4"];
+N7 [label="2431"];
+N2 -- N7 [label="6"];
+N8 [label="1243"];
+N6 -- N8 [label="2"];
+N9 [label="2413"];
+N6 -- N9 [label="6"];
+N10 [label="2134"];
+N6 -- N10 [label="2"];
+N11 [label="2143"];
+N8 -- N11 [label="4"];
+N12 [label="1423"];
+N8 -- N12 [label="4"];
+N13 [label="1234"];
+N8 -- N13 [label="0"];
+}
