@@ -1,0 +1,2 @@
+En la bash escribir:
+go get github.com/snugml/go

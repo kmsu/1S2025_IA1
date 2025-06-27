@@ -1,0 +1,21 @@
+graph G {
+N1 [label="hola"];
+N2 [label="ohla"];
+N1 -- N2 [label="4"];
+N3 [label="hloa"];
+N1 -- N3 [label="6"];
+N4 [label="hoal"];
+N1 -- N4 [label="6"];
+N5 [label="hola"];
+N2 -- N5 [label="6"];
+N6 [label="olha"];
+N2 -- N6 [label="2"];
+N7 [label="ohal"];
+N2 -- N7 [label="4"];
+N8 [label="loha"];
+N6 -- N8 [label="4"];
+N9 [label="ohla"];
+N6 -- N9 [label="4"];
+N10 [label="olah"];
+N6 -- N10 [label="0"];
+}
